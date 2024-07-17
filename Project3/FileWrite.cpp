@@ -2,6 +2,8 @@
 
 void FileWrite()
 {
+	cout << "파일 쓰기 시작" << endl;
+
 	// #1. output으로 파일을 제작하기 위해 변수 선언
 	ofstream outFile;
 
@@ -34,4 +36,6 @@ void FileWrite()
 
 	// #4. 작성한 파일을 닫아 입력을 종료한다.
 	outFile.close();
+
+	cout << "파일 쓰기 끝" << endl;
 }

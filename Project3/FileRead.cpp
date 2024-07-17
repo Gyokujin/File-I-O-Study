@@ -7,6 +7,8 @@ unsigned int speed;
 
 void FileRead()
 {
+	cout << "파일 읽기 시작" << endl;
+
 	// #1. input으로 파일을 읽기 위해 변수 선언
 	ifstream inFile;
 
@@ -25,6 +27,7 @@ void FileRead()
 	inFile >> hp;
 	inFile >> speed;
 
+	cout << "파일 읽기 시작" << endl;
 	PrintInfo();
 }
 

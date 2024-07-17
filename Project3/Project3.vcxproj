@@ -130,6 +130,7 @@
     <ClCompile Include="FileRead.cpp" />
     <ClCompile Include="FileWrite.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Essence.txt" />
@@ -137,6 +138,7 @@
   <ItemGroup>
     <ClInclude Include="FileRead.h" />
     <ClInclude Include="FileWrite.h" />
+    <ClInclude Include="Test.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
