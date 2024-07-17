@@ -1,0 +1,8 @@
+fstream(File Stream) : 파일의 데이터 활용을 지원하는 헤더
+
+파일 쓰기
+- ofstream(OutputFile Stream) :아웃풋으로 파일을 내보내게 한다.
+- open('test.txt') : 파일(텍스트 파일) 쓰기를 시작한다.
+- close : 파일 읽기를 종료한다.
+
+파일 읽기
