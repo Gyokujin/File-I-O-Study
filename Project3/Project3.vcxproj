@@ -127,10 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FileRead.cpp" />
+    <ClCompile Include="FileWrite.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Essence.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileRead.h" />
+    <ClInclude Include="FileWrite.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
